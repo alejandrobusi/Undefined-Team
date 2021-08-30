@@ -5,6 +5,7 @@
   <li>
     <h3>¿Qué es Undefined Games?</h3>
     <p>Undefined Games es una página dedicada a la venta de videojuegos en línea.</p>
+    <p>¡¡¡IMPORTANTE!!!RECUERDA QUE PARA EJECUTAR ESTE PROYECTO DEBES LEVANTAR LA API CON "JSON-SERVER"</p>
   </li>
   <li>
     <h3>¿Es visible para dispositivos móviles?</h3>
