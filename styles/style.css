@@ -1,0 +1,202 @@
+:root{
+  --first: #1BCB95;
+  --second: #00aa714f;
+  --gray: #575757;
+  --gray2: #212529;
+  --green: #1BCB95;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(/images/fondo2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.fondNavbar{
+  background-color: var(--gray2);
+  border-bottom: 2px solid var(--green);
+}
+.logoNav{
+  -webkit-filter: drop-shadow(3px 3px 3px var(--second));
+  filter: drop-shadow(3px 3px 3px var(--second));
+}
+.nav-link:hover {
+  transition: 100ms;
+  transform: scale(1.09);
+}
+.nav-btn{
+  border: none;
+  background: none;
+}
+.hero{
+  background: linear-gradient(to bottom right,var(--gray2), var(--gray));
+  padding: 5% 0;
+  box-shadow: 4px 8px 10px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+  color: rgb(255, 255, 255);
+}
+.row {
+  --bs-gutter-x: 0;
+}
+.carousel-control-next,
+.carousel-control-prev {
+  width: 5%;
+  opacity: 0;
+}
+.titleFilter {
+  text-shadow: 1px 1px 10px var(--first);
+  color: black;
+}
+.tilteShadowWhite{
+  text-shadow: 1px 1px 10px white;
+  color: black;
+}
+.firstCard {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: var(--gray);
+  background-clip: border-box;
+  border: 2px solid var(--first);
+  border-radius: 0.25rem;
+}
+.card-header {
+  border-bottom: 3px solid var(--first) !important;
+}
+.cardLine {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5;
+  line-clamp: 5;
+  overflow: hidden;
+}
+.cardBorder {
+  border: 1px solid var(--first);
+}
+.boxShadowFull {
+  box-shadow: 1px 0px 26px 4px rgba(0, 0, 0, 0.68);
+  -webkit-box-shadow: 1px 0px 26px 4px rgba(0, 0, 0, 0.68);
+  -moz-box-shadow: 1px 0px 26px 4px rgba(0, 0, 0, 0.68);
+}
+.cardShadowFull {
+  box-shadow: 1px 0px 7px 4px var(--first);
+  -webkit-box-shadow: 1px 0px 7px 4px var(--first);
+  -moz-box-shadow: 1px 0px 7px 4px var(--first);
+}
+.btn-warning {
+  color: white;
+  background-color: var(--gray2);
+  border-color: var(--green);
+}
+.btn-warning:hover {
+  color: white;
+  background-color: var(--gray);
+  border-color: var(--green);
+}
+.btn-check:focus + .btn-warning, .btn-warning:focus {
+  color:white;
+  background-color: var(--gray2);
+  border-color: var(--green);
+  box-shadow: 0 0 0 0.25rem var(--second);
+}
+.btn-check:checked + .btn-warning, .btn-check:active + .btn-warning, .btn-warning:active, .btn-warning.active, .show > .btn-warning.dropdown-toggle {
+  color: white;
+  background-color: var(--gray2);
+  border-color: var(--green);
+}
+.btn-check:checked + .btn-warning:focus, .btn-check:active + .btn-warning:focus, .btn-warning:active:focus, .btn-warning.active:focus, .show > .btn-warning.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.25rem var(--green);
+}
+.reviewText {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 6;
+  line-clamp: 6;
+  overflow: hidden;
+}
+.reviewTextTable {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  line-clamp: 1;
+  overflow: hidden;
+}
+.modal-content {
+  background: #212529;
+  color: #ffffff;
+}
+.bi {
+  cursor: pointer;
+}
+.star.fav {
+  color: gold;
+}
+table {
+  border-collapse: inherit;
+}
+/*Inicio Estilos Noticias*/
+.sectionNews {
+  display: flex;
+  justify-content: space-evenly;
+  /* padding: 5rem; */
+}
+.sectionNews .card-title {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+.sectionNews .card-body {
+  background: linear-gradient(to bottom right,var(--gray2), var(--gray));
+  border: 1px solid var(--first);
+
+  /* border-bottom-right-radius: 20px; */
+  /* border-top-left-radius: 20px; */
+}
+.sectionNews .card-group .card{
+  background-color: none;
+  border: 1px solid var(--first);
+}
+
+.horizontalNews {
+  display: inherit;
+  padding: 2rem;
+}
+.horizontalNews .card-body {
+  background: var(--gray2);
+  /* border-bottom-right-radius: 20px; */
+  /* border-top-left-radius: 20px; */
+}
+.text-clamped{
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 7;
+  line-clamp: 7;
+  overflow: hidden;
+}
+details summary::after {
+  content: "Leer mas...";
+}
+details[open] summary::after {
+  content: "Leer menos...";
+}
+/*Fin Estilos Noticias*/
+footer .container-fluid {
+  /*Padre: Footer and container-fluid: Hijo!*/
+  padding: 0;
+}
+footer a {
+  text-decoration: none;
+  color: black;
+}
+footer a:hover{
+  color: black;
+}
+.fondSocial {
+  background-color: var(--first);
+}
