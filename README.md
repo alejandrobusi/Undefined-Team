@@ -1,7 +1,7 @@
 <h1 align='center'> Undefined Games</h1>
 <h2 align='center'> Undefined </h2>
 </br>
-<h3>¡¡¡IMPORTANTE!!!RECUERDA QUE PARA EJECUTAR ESTE PROYECTO DEBES LEVANTAR LA API CON "JSON-SERVER".</h3>
+<h3>¡¡¡IMPORTANTE!!! RECUERDA QUE PARA EJECUTAR ESTE PROYECTO DEBES LEVANTAR LA API CON "JSON-SERVER".</h3>
 
 <ul>
   <li>
