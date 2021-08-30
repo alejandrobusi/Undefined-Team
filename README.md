@@ -1,11 +1,13 @@
 <h1 align='center'> Undefined Games</h1>
 <h2 align='center'> Undefined </h2>
 </br>
+<h3>¡¡¡IMPORTANTE!!!RECUERDA QUE PARA EJECUTAR ESTE PROYECTO DEBES LEVANTAR LA API CON "JSON-SERVER".</h3>
+
 <ul>
   <li>
     <h3>¿Qué es Undefined Games?</h3>
     <p>Undefined Games es una página dedicada a la venta de videojuegos en línea.</p>
-    <p>¡¡¡IMPORTANTE!!!RECUERDA QUE PARA EJECUTAR ESTE PROYECTO DEBES LEVANTAR LA API CON "JSON-SERVER"</p>
+
   </li>
   <li>
     <h3>¿Es visible para dispositivos móviles?</h3>
